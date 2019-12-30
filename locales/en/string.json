@@ -1,0 +1,57 @@
+{
+    "title": {
+      "main": "Yashiro Show",
+      "philosophy": "Philosophy",
+      "creator": "Creator",
+      "skill": "Skill"
+    },
+    "description":{
+      "profile1": "A Japanese creator.",
+      "profile2": "Yashiro acts as a writer, composer and movie director.",
+      "profile3": "As a philosopher, he studied German philosophy at university of Tsukuba and Analytic philosophy at university of Cologne.",
+      "profile4": "He's currently working as a programmer in Tokyo."
+    },
+    "philosophy": {
+      "utilitarianism": "Utilitarianism",
+      "utilitarianism_sub": "Go toward the happinest world.",
+      "utilitarianism_des": "I seek to produce the greatest happiness of the greatest number based on Utilitarianism.",
+      "empiricism": "Empiricism",
+      "empiricism_sub": "Believe the sense and the analysis.",
+      "empiricism_des": "I seek human knowledge from the analysis about human sense, instead of a-priori recognition.",
+      "atheism": "Atheism",
+      "atheism_sub": "Place importance on science.",
+      "atheism_des": "I believe only the facts which can be handled quantitatively and testable.",
+      "academy":"Education",
+      "tsukuba": "University of Tsukuba",
+      "degree": "Degree",
+      "bachelor": "Bachelor",
+      "specialty": "Specialty",
+      "specialty_philosophy": "Analytic, Moral philosophy",
+      "mainInterest": "Main Interest",
+      "wienerKreis": "Vienna Circle",
+      "carnap": "Carnap",
+      "kant": "Kant",
+      "bentham": "Bentham",
+      "dawkins": "Dawkins",
+      "thesis": "Thesis",
+      "thesisTitle": "Study about Kant's suicide argument"
+    },
+    "creator": {
+      "sub": "Create new movements...",
+      "write": "As a writer",
+      "write_des": "Coming soon...",
+      "music": "As a musician",
+      "music_des": "On Feburualy 2020, Live at Nagano.",
+      "movie": "As a movie director",
+      "movie_des": "Studio-seginus"
+    },
+    "skill": {
+      "sub": "I work as an Information Engineer. I prove my skills especially in Informatics and Electrical science.",
+      "qualification": "Qualification(Japanese)",
+      "career": "Job Career",
+      "work": "Work",
+      "seginus": "I joined starting business as a designer.",
+      "hirate": "I worked at design company as a control engineer.",
+      "eight": "I'm now working at IT company as a programmer."
+    }
+}

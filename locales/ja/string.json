@@ -1,0 +1,57 @@
+{
+    "title": {
+      "main": "八代 翔",
+      "philosophy": "哲学",
+      "creator": "創作",
+      "skill": "技術"
+    },
+    "description":{
+      "profile1": "東京都出身のクリエイター",
+      "profile2": "小説、映画、音楽と幅広い分野で創作活動を行っている。",
+      "profile3": "学問分野では哲学に関心を寄せ、大学時代にはドイツ思想を専攻した。ケルン大学哲学部に交換留学し、分析哲学にも触れる。",
+      "profile4": "現在はプログラマーとして働き、自己研鑽に励んでいる。"
+    },
+    "philosophy": {
+      "utilitarianism": "功利主義",
+      "utilitarianism_sub": "幸福な世界を目指して",
+      "utilitarianism_des": "量的功利主義に基づき最大多数の最大幸福を追求します。",
+      "empiricism": "経験主義",
+      "empiricism_sub": "感覚と分析を信じる",
+      "empiricism_des": "先験的要素ではなく、感性的認識の分析から知を追求します。",
+      "atheism": "無神論",
+      "atheism_sub": "科学観の重視",
+      "atheism_des": "定量的で検証可能な事実のみを信仰します。",
+      "academy": "出身校",
+      "tsukuba": "筑波大学人文・文化学群",
+      "degree": "学位",
+      "bachelor": "学士(人文学)",
+      "specialty": "専門領域",
+      "specialty_philosophy": "分析哲学・道徳哲学",
+      "mainInterest": "関心領域",
+      "wienerKreis": "ウィーン学団",
+      "carnap": "カルナップ",
+      "kant": "カント",
+      "bentham": "ベンサム",
+      "dawkins": "ドーキンス",
+      "thesis": "学士論文",
+      "thesisTitle": "カント自殺論の妥当性についての検討"
+    },
+    "creator": {
+      "sub": "―新しい感動をつくる―",
+      "write": "執筆活動",
+      "write_des": "10代から小説・随筆などの執筆活動を続けている。小説の分野では『折りたたみ傘』『さいごの感謝祭』でノースアジア大学文学賞受賞、『花園』で室生犀星文学賞を受賞した。",
+      "music": "音楽活動",
+      "music_des": "2020.2 長野県松本市にてライブ予定",
+      "movie": "映画制作",
+      "movie_des": "Studio-seginus"
+    },
+    "skill": {
+      "sub": "情報技術者を生業とし、電情系分野で自己研鑽に励んでいます。",
+      "qualification": "資格",
+      "career": "職歴",
+      "work": "業務",
+      "seginus": "デザイナーとして学生起業に参加",
+      "hirate": "総合設計会社で制御系エンジニアとして勤務",
+      "eight": "情報系ベンチャー企業でプログラマーとして勤務"
+    }
+}

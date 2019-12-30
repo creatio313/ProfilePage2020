@@ -1,0 +1,106 @@
+/* Googleフォントのインポート */
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p:300,400&display=swap&subset=japanese');
+
+/* 全般初期化 */
+body{
+  color: black;
+  background-color: white;
+  font-family: 'M PLUS 1p', sans-serif;
+  margin: auto;
+  text-align: center;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  list-style-type: none;
+}
+
+.flexli{
+  display: flex;
+}
+.flexli li{
+  width: 50px;
+  flex: 1 1 auto;
+}
+footer{
+  border-top: solid 1px gray;
+  font-size: small;
+  margin-top: 50px;
+}
+nav{
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+  padding: 10px 0;
+}
+nav ul{
+  margin: 0;
+  display: flex;
+}
+footer ul li{
+  border-left: solid thin gray;
+}
+footer ul li:first-child{
+  border-left: none;
+}
+nav ul li span:hover{
+  color: gray;
+}
+h1{
+  padding: 50px;
+}
+#jobcar{
+  margin: auto;
+}
+#philocar{
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  max-width: 750px;
+  background-image: url("../images/DSC00984_str.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+th{
+  padding: 10px;
+}
+td{
+  padding: 10px;
+}
+@media screen and (max-width:750px) {
+  /*　画面サイズが480pxからはここを読み込む　*/
+  #philocar{
+    background-image: url("../images/DSC00984_wea.png");
+    background-position: center;
+  }
+  table{
+    margin: auto;
+  }
+}
+#prof_img{
+  width: 100%;
+  max-width: 500px;
+}
+#prof_description{
+  padding: 5px;
+}
+#lang_menu{
+  float: right;
+}
+#lang_menu button{
+  color: gray;
+  border-style: none;
+  background-color: white;
+}
+.rounded{
+  border-radius: 50%;
+}
+#philosophyMainButton span{
+  border: solid 2px black;
+  padding: 2px;
+}
