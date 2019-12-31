@@ -24,5 +24,11 @@
     "gulp-clean-css": "^4.2.0",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "i18next": "^19.0.2",
+    "i18next-xhr-backend": "^3.2.2",
+    "jquery": "^3.4.1",
+    "jquery-i18next": "^1.2.1"
   }
 }
