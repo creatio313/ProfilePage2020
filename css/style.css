@@ -5,6 +5,7 @@
 body{
   color: black;
   background-color: white;
+  display: none;
   font-family: 'M PLUS 1p', sans-serif;
   margin: auto;
   text-align: center;
@@ -52,6 +53,9 @@ nav ul li span:hover{
 }
 h1{
   padding: 50px;
+}
+.subtitle{
+  text-shadow: 0px 0px 2px gray;
 }
 #jobcar{
   margin: auto;
