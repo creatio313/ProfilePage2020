@@ -19,7 +19,6 @@ ul{
 ul li{
   list-style-type: none;
 }
-
 .flexli{
   display: flex;
 }
@@ -27,10 +26,11 @@ ul li{
   width: 50px;
   flex: 1 1 auto;
 }
+main{
+  margin-bottom: 100px;
+}
 footer{
-  border-top: solid 1px gray;
   font-size: small;
-  margin-top: 50px;
 }
 nav{
   border-top: solid 1px gray;
@@ -103,4 +103,13 @@ td{
 #philosophyMainButton span{
   border: solid 2px black;
   padding: 2px;
+}
+.container{
+  margin: auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.box{
+  padding: 5px;
 }

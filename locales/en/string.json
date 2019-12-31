@@ -39,11 +39,18 @@
     "creator": {
       "sub": "Create new movements...",
       "write": "As a writer",
-      "write_des": "Coming soon...",
+      "write_des1": "I'be written novels and essays since 10 yeas ago.",
+      "write_des2": "I got North Asia University Literature Award with 'Oritatamigasa' and 'Saigono-Kansyasai'.",
+      "write_des3": "You can see my works at my blog(link).",
       "music": "As a musician",
-      "music_des": "On Feburualy 2020, Live at Nagano.",
+      "music_des1": "I enjoyed Chorus and Ocarina when I was teenager.",
+      "music_des2": "At twenty years old, I started to sing with a guitar. I also plan Open-Mic events.",
+      "music_des3": "Now I'm composing main songs and sound tracks of my movie with DTM.",
       "movie": "As a movie director",
-      "movie_des": "Studio-seginus"
+      "movie_des1": "I started maiking movies in 2013.",
+      "movie_des2": "Since 2014, I've making long movies with Studio-seginus.",
+      "movie_des3": "I've present two latest filmes in September 2019.",
+      "movie_detail": "You can see details at Studio-seginus HP."
     },
     "skill": {
       "sub": "I work as an Information Engineer. I prove my skills especially in Informatics and Electrical science.",
