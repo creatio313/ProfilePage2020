@@ -65,7 +65,7 @@ h1{
   margin-top: 70px;
   margin-bottom: 70px;
   max-width: 750px;
-  background-image: url("../images/DSC00984_str.png");
+  background-image: url("../images/philo_str.png");
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: right top;
@@ -79,7 +79,7 @@ td{
 @media screen and (max-width:750px) {
   /*　画面サイズが480pxからはここを読み込む　*/
   #philocar{
-    background-image: url("../images/DSC00984_wea.png");
+    background-image: url("../images/philo_wea.png");
     background-position: center;
   }
   table{
