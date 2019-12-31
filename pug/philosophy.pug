@@ -1,0 +1,47 @@
+- var title="八代翔公式HP：哲学"
+- var description = "八代翔の公式ホームページ：哲学領域の紹介です。思想関係専門ページへのリンクも掲載しています。"
+- var keywords = "八代　翔,やしろしょう,Yashiroshow,哲学,ドイツ哲学"
+
+- var og_title = "八代翔公式HP：哲学"
+- var og_des = "八代翔の公式ホームページ：哲学領域の紹介です。"
+
+doctype html
+head
+  include ../tmp/_head.pug
+body
+  header
+    include ../tmp/_header.pug
+  main
+    //哲学
+    section#philosophy
+      h2(data-i18n="title.philosophy") 哲学
+      p.subtitle(data-i18n="philosophy.sub") 信を疑い、真を究む
+      div.philodiv#philocar
+        table
+          tr
+            th(data-i18n="philosophy.academy") 出身校
+            td(data-i18n="philosophy.tsukuba") 筑波大学人文・文化学群
+          tr
+            th(data-i18n="philosophy.degree") 学位
+            td(data-i18n="philosophy.bachelor") 学士(人文学)
+          tr
+            th(data-i18n="philosophy.specialty") 専門領域
+            td(data-i18n="philosophy.specialty_philosophy") 分析哲学・道徳哲学
+          tr
+            th(rowspan="5" data-i18n="philosophy.mainInterest") 関心対象
+            td(data-i18n="philosophy.wienerKreis") ウィーン学団
+          tr
+            td(data-i18n="philosophy.carnap") カルナップ
+          tr
+            td(data-i18n="philosophy.kant") カント
+          tr
+            td(data-i18n="philosophy.bentham") ベンサム
+          tr
+            td(data-i18n="philosophy.dawkins") ドーキンス
+          tr
+            th(data-i18n="philosophy.thesis") 学士論文
+            td(data-i18n="philosophy.thesisTitle") カント自殺論の妥当性についての検討
+      a(href="philosophy/philosophyMain.html")
+        p#philosophyMainButton
+          span 詳細
+  script(type="text/javascript" src="js/main.js")

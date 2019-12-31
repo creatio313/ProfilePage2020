@@ -1,0 +1,52 @@
+- var title="八代翔公式HP：技術"
+- var description = "八代翔の公式ホームページ：技術領域の紹介です。保有資格やGitHubへのリンクなどを掲載しています。"
+- var keywords = "八代　翔,やしろしょう,Yashiroshow,足立区,プログラマー"
+
+- var og_title = "八代翔公式HP：技術"
+- var og_des = "八代翔の公式ホームページ：技術領域の紹介です。"
+
+doctype html
+head
+  include ../tmp/_head.pug
+body
+  header
+    include ../tmp/_header.pug
+  main
+    //技術
+    section#skill
+      h2(data-i18n="title.skill") 技術
+      p.subtitle(data-i18n="skill.sub") 情報技術者を生業とし、電情系分野で自己研鑽に励んでいます。
+      h3(data-i18n="skill.career") 職歴
+      table#jobcar
+        thead
+          tr
+            th 年
+            th 月
+            th(data-i18n="skill.work") 業務
+        tbody
+          tr
+            td 2015
+            td 4-8
+            td(data-i18n="skill.seginus") デザイナーとして学生起業に参加
+          tr
+            td 2018
+            td 4-7
+            td(data-i18n="skill.hirate") 総合設計会社で制御系エンジニアとして勤務
+          tr
+            td 2018
+            td 8-
+            td(data-i18n="skill.eight") 情報系ベンチャー企業でプログラマーとして勤務
+      h3(data-i18n="skill.qualification") 資格
+      ul
+        li 応用情報技術者
+        li ディジタル技術検定2級(情報)
+        li Oracle Java SE 8 Gold
+        li Microsoft Office Specialist Expert(Excel 2016)
+        li Microsoft Office Specialist(Word, Excel, PowerPoint 2010)
+        li 第二種電気工事士
+        li 知的財産管理技能検定3級
+        li 普通自動車第一種免許
+        li TOEIC IP 810
+      a(href="https://github.com/creatio313")
+        img(src="images/GitHub-Mark-120px-plus.png" alt="GitHub")
+  script(type="text/javascript" src="js/main.js")

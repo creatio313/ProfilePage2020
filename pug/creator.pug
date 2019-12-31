@@ -1,0 +1,40 @@
+- var title="八代翔公式HP：創作"
+- var description = "八代翔の公式ホームページ：創作領域の紹介です。執筆活動、音楽活動、映画活動について掲載しています。"
+- var keywords = "八代　翔,やしろしょう,Yashiroshow,足立区,クリエイター"
+
+- var og_title = "八代翔公式HP：創作"
+- var og_des = "八代翔の公式ホームページ：創作領域の紹介です。"
+
+doctype html
+head
+  include ../tmp/_head.pug
+body
+  header
+    include ../tmp/_header.pug
+  main
+    //創作
+    section#creator
+      // クリエイター
+      h2(data-i18n="title.creator") 創作
+      p.subtitle(data-i18n="creator.sub") 新しい「感動」をつくる
+      div.container
+        div.box#writebox
+          h3(data-i18n="creator.write") 執筆活動
+          p(data-i18n="creator.write_des1") 10代から小説・随筆などの執筆活動を続けている。
+          p(data-i18n="creator.write_des2") 小説の分野では『折りたたみ傘』『さいごの感謝祭』でノースアジア大学文学賞受賞、『花園』で室生犀星文学賞を受賞した。
+          a(href="https://creatio-seginus.blogspot.com/")
+            p(data-i18n="creator.write_des3") 作品は今後ブログにて掲載予定
+        div.box#musicbox
+          h3(data-i18n="creator.music") 音楽活動
+          p(data-i18n="creator.music_des1") 10代から合唱、オカリナ演奏等を嗜む。
+          p(data-i18n="creator.music_des2") 20代からはギターによる弾き語りを開始し、ライブ出演やオープンマイクイベントの企画などを行う。
+          p(data-i18n="creator.music_des3") 現在はDTMによる映画用の主題歌・サウンドトラックスの制作も行っている。
+        div.box#moviebox
+          h3(data-i18n="creator.movie") 映画制作
+          p(data-i18n="creator.movie_des1") 2013年から映画制作を開始。
+          p(data-i18n="creator.movie_des2") 2014年からは映画制作団体Studio-seginusを立ち上げ、長編映画を多数手がけている。
+          p(data-i18n="creator.movie_des3") 2019年9月に最新作2作を発表した。
+          a(href="https://seginus.jp")
+            p(data-i18n="creator.movie_detail") 詳細はStudio-seginusHPにて
+    img(src="images/creat.png" alt="八代翔、ギターとともに")
+  script(type="text/javascript" src="js/main.js")

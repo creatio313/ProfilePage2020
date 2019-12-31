@@ -20,11 +20,10 @@ function sasscom(cb){
 		.pipe(gulp.dest('./css/'));
 	cb();
 }
-
-gulp.task('watch', function () {
-    gulp.watch('./sass/*.sass', gulp.task('sass'));
-    gulp.watch('./pug/*.pug', gulp.task('pug'));
-});
+function watch(cb){
+    gulp.watch('./sass/*.sass', gulp.task('sasscom'));
+    gulp.watch('./pug/*.pug', gulp.task('pugcom'));
+}
 
 function defaultTask(cb) {
   // place code for your default task here
@@ -33,4 +32,5 @@ function defaultTask(cb) {
 }
 exports.pugcom = pugcom
 exports.sasscom = sasscom
-exports.default = pugcom
+exports.watch = watch
+exports.default = watch
