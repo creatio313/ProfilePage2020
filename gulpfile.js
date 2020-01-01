@@ -1,36 +1,27 @@
-const gulp = require('gulp');
+const { src, dest, parallel, watch } = require('gulp');
+const pug = require('gulp-pug');
 const sass = require('gulp-sass');
-const cleanCSS = require("gulp-clean-css");
-const pug = require( 'gulp-pug' );
+const minifyCSS = require('gulp-csso');
 
-
-// pugƒRƒ“ƒpƒCƒ‹
-function pugcom(cb){
-	gulp
-		.src('pug/*.pug')
-		.pipe(pug())
-		.pipe( gulp.dest( './' ) );
-	cb();
-}
-function sasscom(cb){
-	gulp
-		.src('./sass/*.sass')
-		.pipe(sass())
-		.pipe(cleanCSS())
-		.pipe(gulp.dest('./css/'));
-	cb();
-}
-function watch(cb){
-    gulp.watch('./sass/*.sass', gulp.task('sasscom'));
-    gulp.watch('./pug/*.pug', gulp.task('pugcom'));
+function html() {
+  return src('pug/*.pug')
+    .pipe(pug())
+    .pipe(dest('./'))
 }
 
-function defaultTask(cb) {
-  // place code for your default task here
-  console.log("aaa");
-  cb();
+function css() {
+  return src('sass/*.sass')
+    .pipe(sass())
+    .pipe(minifyCSS())
+    .pipe(dest('css'))
 }
-exports.pugcom = pugcom
-exports.sasscom = sasscom
-exports.watch = watch
-exports.default = watch
+
+exports.css = css;
+exports.html = html;
+
+exports.all = parallel(html, css);
+
+exports.default = function() {
+  watch('sass/*.sass', css);
+  watch('pug/*.pug', html);
+};
