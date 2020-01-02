@@ -1,6 +1,8 @@
 /* 全般初期化 */
 body{
   font-family: 'M PLUS 1p', sans-serif;
+  float: right;
+  direction:rtl;
   writing-mode: vertical-rl;
 }
 a{
