@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
     $(function () {
       /** 多言語対応 */
       var clientLang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
-      if(clientLang == "ja"){
+      if(clientLang.indexOf("ja") != -1){
         setLang("ja");
       }else{
         setLang("en");
