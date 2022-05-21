@@ -1,0 +1,32 @@
+- var title="八代翔公式HP：小説"
+- var description = "八代翔の公式ホームページ：小説・エッセイ作品の一覧です。"
+- var keywords = "八代　翔,やしろしょう,Yashiroshow,足立区,小説,エッセイ"
+
+- var og_title = "八代翔公式HP：小説"
+- var og_des = "八代翔の公式ホームページ：小説・エッセイ作品の一覧です。"
+
+doctype html
+head
+  include ./templates/_head.pug
+body
+  header
+    include ./templates/_header.pug
+  main
+    section
+      h2(data-i18n="title.novel_list") 小説・エッセイ一覧
+      ul
+        a(href="./novel/ORITATAMIGASA.htm")
+          li 折りたたみ傘(エッセイ,2011・ノースアジア大学文学賞受賞作品)
+        a(href="./novel/HANAZONO.htm")
+          li 花園(エッセイ,2011・室生犀星文学賞選考通過作品)
+        a(href="./novel/SAIGONOKANSYASAI.htm")
+          li さいごの感謝祭(小説,2012・ノースアジア大学文学賞受賞作品)
+        a(href="./novel/SAISYUPPATSU.htm")
+          li 再出発(小説,2012)
+        a(href="./novel/TEJINASHI.htm")
+          li 手品師(小説,2012)
+        a(href="./novel/ICHIGOORE.htm")
+          li イチゴ・オレ(エッセイ,2016)
+        a(href="./novel/SONOHI.htm")
+          li その日(小説,2017)
+  script(type="text/javascript" src="js/main.js")
