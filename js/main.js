@@ -22,7 +22,14 @@ document.addEventListener('DOMContentLoaded', function(){
 (function () {
     $(function () {
       /** 多言語対応 */
-      var clientLang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+      var clientLang = "ja"
+      /** Cookie読み取り */
+      if(getCookie("lang")){
+        clientLang = getCookie("lang");
+      }else{
+        clientLang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+      }
+      /** 言語判定・設定 */
       if(clientLang.indexOf("ja") != -1){
         setLang("ja");
       }else{
@@ -33,14 +40,16 @@ document.addEventListener('DOMContentLoaded', function(){
       $("body").fadeIn(700);
 
       /** ボタンクリック時に言語を変更する */
-      $('#ja_button').click(function(){
-        setLang("ja")
+      $('#ja_button').on('click',(function(){
+        document.cookie = "lang=ja";
+        setLang("ja");
         $('#philosophyMainButton').show();
-      });
-      $('#en_button').click(function(){
+      }));
+      $('#en_button').on('click',(function(){
+        document.cookie = "lang=en";
         setLang("en")
         $('#philosophyMainButton').hide();
-      });
+      }));
     });
 
     /** 言語変換関数 */
@@ -56,5 +65,21 @@ document.addEventListener('DOMContentLoaded', function(){
         jqueryI18next.init(i18next, $);
         $('[data-i18n]').localize();
       });
+    }
+    /** Cookie取得関数 */
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
     }
 })();
