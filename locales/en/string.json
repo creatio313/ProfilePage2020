@@ -6,10 +6,9 @@
 		"skill": "Skill"
 	},
 	"description": {
-		"profile1": "A Japanese creator.",
+		"profile1": "A Japanese philosopher & creator.",
 		"profile2": "Yashiro acts as a writer, composer and movie director.",
 		"profile3": "As a philosopher, he studied German philosophy at university of Tsukuba and Analytic philosophy at university of Cologne.",
-		"profile4": "He's currently working as an engineer in Tokyo."
 	},
 	"philosophy": {
 		"sub": "Criticize beliefs, and seek Truth",
@@ -50,8 +49,9 @@
 		"career": "Job Career",
 		"work": "Work",
 		"seginus": "I joined starting business as a designer.",
-		"hirate": "I worked at system design company as a control engineer.",
-		"eight": "I workded at IT venture company as a programmer.",
-		"accenture": "I'm now working at Accenture as a system engineer."
+		"hirate": "Worked at system design company as a control engineer.",
+		"eight": "Workded at IT venture company as a programmer.",
+		"accenture": "Worked at Accenture as a system engineer.",
+		"sakura": "I'm now working at SAKURA Internet as a marketer and product manager."
 	}
 }
