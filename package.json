@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/creatio313/ProfilePage2020#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.1",
     "gulp-csso": "^4.0.1",
-    "gulp-pug": "^4.0.1",
+    "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.93.2"
   },
