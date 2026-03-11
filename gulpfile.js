@@ -1,4 +1,4 @@
-const { src, dest, parallel, watch } = require('gulp');
+const { src, dest, parallel, series, watch } = require('gulp');
 const pug = require('gulp-pug');
 const sass = require('gulp-sass')(require('sass'));
 const minifyCSS = require('gulp-csso');
@@ -21,7 +21,9 @@ exports.html = html;
 
 exports.all = parallel(html, css);
 
-exports.default = function() {
+function watchFiles() {
   watch('sass/*.sass', css);
-  watch('pug/*.pug', html);
-};
+  watch('pug/**/*.pug', html);
+}
+
+exports.default = series(exports.all, watchFiles);
