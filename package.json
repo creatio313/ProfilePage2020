@@ -25,11 +25,5 @@
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.93.2"
-  },
-  "dependencies": {
-    "i18next": "^19.9.2",
-    "i18next-xhr-backend": "^3.2.2",
-    "jquery": "^3.6.0",
-    "jquery-i18next": "^1.2.1"
   }
 }
